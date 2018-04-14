@@ -287,8 +287,8 @@ ON a.city_id = c.city_id
 LEFT JOIN country ctry
 ON c.country_id = ctry.country_id;
 
-#7h. List the top five genres in gross revenue in descending order. 
-#(Hint: you may need to use the following tables: category, film_category, inventory, payment, and rental.)
+/*7h. List the top five genres in gross revenue in descending order. 
+(Hint: you may need to use the following tables: category, film_category, inventory, payment, and rental.)*/
 
 USE sakila;
 
